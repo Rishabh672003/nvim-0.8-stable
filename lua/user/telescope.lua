@@ -5,6 +5,8 @@ end
 
 local actions = require "telescope.actions"
 
+require("telescope").load_extension("file_browser")
+
 telescope.setup {
   defaults = {
 
